@@ -1,0 +1,27 @@
+body h1{
+    text-align: center;
+    margin: auto;
+}
+body hr{
+    color:  rgba(128, 128, 128, 0.323);
+}
+
+.align{
+    display: flex;
+}
+
+.player-options, .enemy-options{
+    text-align: center;
+    width: 50%;
+}
+
+.player-options img, .enemy-options img{
+    max-width: 200px;
+    max-height: 200px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.player-options img:hover, .enemy-options img:hover{
+    opacity: 0.9;
+}
