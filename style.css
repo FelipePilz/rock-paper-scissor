@@ -1,3 +1,7 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 body h1{
     text-align: center;
     margin: auto;
@@ -15,13 +19,17 @@ body hr{
     width: 50%;
 }
 
-.player-options img, .enemy-options img{
+div div > img{
     max-width: 200px;
     max-height: 200px;
-    cursor: pointer;
     opacity: 0.3;
 }
 
-.player-options img:hover, .enemy-options img:hover{
+.player-options img{
+    cursor: pointer;
+    
+}
+
+.player-options img:hover{
     opacity: 0.9;
 }
