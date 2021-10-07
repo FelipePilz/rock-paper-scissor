@@ -1,9 +1,9 @@
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 body h1{
-    text-align: center;
     margin: auto;
 }
 body hr{
@@ -15,7 +15,6 @@ body hr{
 }
 
 .player-options, .enemy-options{
-    text-align: center;
     width: 50%;
 }
 
